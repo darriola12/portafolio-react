@@ -15,7 +15,7 @@ const Home = () => {
         </div>
 
         <div>
-          <p className="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador web Front-End</p>
+          <p className="home_text-3 text-type" data-section="home" data-value="home_text-3">Estudiante de Ingeniera de Software</p>
         </div>
 
         <div className="container_parrafo-info">
@@ -24,9 +24,10 @@ const Home = () => {
 
         <div className="container_button">
           <a href="#contacto">
-            <button className="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+            <button className="contact_button" data-section="home" data-value="contact_button">Contacto</button> 
+            <button className="contact_button" data-section="home" data-value="contact_button">Descargar CV</button>
           </a>
-        </div>
+        </div> 
       </div>
 
       <div className="links">

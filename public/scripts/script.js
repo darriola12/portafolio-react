@@ -51,6 +51,7 @@ flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 })
 
+
 /*===== class active por secciones =====*/
 window.addEventListener('scroll', () => {
     const   scrollY = window.pageYOffset;
