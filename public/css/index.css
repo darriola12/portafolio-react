@@ -93,6 +93,8 @@ nav.nav_menu.active {
 }
 
 nav.nav_menu.active a {
+    justify-content: center;
+    display: flex;
     padding: 2rem;
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
@@ -100,7 +102,7 @@ nav.nav_menu.active a {
     color: var(--white);
     font-size: 2rem;
     width: 100%;
-    text-align: center;
+    
 }
 
 nav.nav_menu.active a:hover {

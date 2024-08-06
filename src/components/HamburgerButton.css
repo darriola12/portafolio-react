@@ -42,6 +42,7 @@ nav{
 }
 nav.nav_menu.not-active a {
   display: flex;
+  text-align: center;
 }
 
 nav.nav_menu.not-active .flags {

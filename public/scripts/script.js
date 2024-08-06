@@ -18,22 +18,7 @@ window.addEventListener('scroll', () => {
     header.classList.toggle('abajo', window.scrollY > 0);
 });
 
-/*===== Boton Menu 
-btn.addEventListener('click', function() {
-    if (this.classList.contains('active')) {
-        this.classList.remove('active');
-        this.classList.add('not-active');
-        document.querySelector('.nav_menu').classList.remove('active');
-        document.querySelector('.nav_menu').classList.add('not-active');
-    }
-    else {
-        this.classList.add('active');
-        this.classList.remove('not-active');
-        document.querySelector('.nav_menu').classList.remove('not-active');
-        document.querySelector('.nav_menu').classList.add('active');
-    }
-});
-=====*/
+
 
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {
