@@ -18,7 +18,7 @@ window.addEventListener('scroll', () => {
     header.classList.toggle('abajo', window.scrollY > 0);
 });
 
-/*===== Boton Menu =====*/
+/*===== Boton Menu 
 btn.addEventListener('click', function() {
     if (this.classList.contains('active')) {
         this.classList.remove('active');
@@ -33,6 +33,7 @@ btn.addEventListener('click', function() {
         document.querySelector('.nav_menu').classList.add('active');
     }
 });
+=====*/
 
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {

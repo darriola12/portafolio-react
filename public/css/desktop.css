@@ -29,16 +29,6 @@ nav.nav_menu a.active {
     transition: all .5s;
 }
 
-nav.nav_menu.not-active a {
-    display: flex;
-}
-
-nav.nav_menu.not-active .flags {
-    display: flex;
-    width: 7rem;
-    justify-content: space-between;
-    align-items: center;
-}
 
 nav.nav_menu.not-active .flags__item {
     filter: contrast(65%);

@@ -1,38 +1,53 @@
-/* Estilo del botón de hamburguesa */
-.btn {
-    display: none; /* Ocultamos el botón por defecto */
-    flex-direction: column;
-    justify-content: center;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
-    margin-top: 15px;
+ /* Estilo del botón de hamburguesa */
+ .btn {
+  display: none; /* Ocultamos el botón por defecto */
+  flex-direction: column;
+  justify-content: center;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
 .btn span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: #ffffff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease;
+display: block;
+height: 3px;
+width: 100%;
+background: #ffffff;
+margin-bottom: 5px;
+transition: all 0.3s ease;
 }
 
 .btn.active span:nth-child(1) {
-  transform: rotate(45deg) translateY(8px);
+transform: rotate(45deg) translateY(8px);
 }
 
 .btn.active span:nth-child(2) {
-  opacity: 0;
+opacity: 0;
 }
 
 .btn.active span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-8px);
+transform: rotate(-45deg) translateY(-8px);
 }
 
 /* Mostrar el botón en pantallas pequeñas */
-@media (max-width: 768px) {
-  .btn {
-    display: flex;
-  }
+@media (max-width: 920px) {
+.btn {
+  display: flex;
 }
+
+nav{
+  display: none;
+}
+}
+nav.nav_menu.not-active a {
+  display: flex;
+}
+
+nav.nav_menu.not-active .flags {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
